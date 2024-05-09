@@ -1,0 +1,20 @@
+.form2 {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 700px;
+}
+
+.form2 span {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+body {
+    background: url(../image/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+}

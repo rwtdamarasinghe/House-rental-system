@@ -1,0 +1,165 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    
+    header {
+        margin: 10px;
+        display: flex;
+        top: 0;
+        background: rgba(0, 0, 0, 0.589);
+        padding: 5px;
+        justify-content: space-between;
+    }
+    
+    header .left-menu {
+        display: flex;
+    }
+    
+    header .left-menu .links {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    header .left-menu .links a {
+        text-decoration: none;
+        padding: 0 10px;
+        color: #fff;
+    }
+    
+    header .right-menu {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    header .right-menu a {
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    
+    header .right-menu .dash {
+        padding: 0 10px;
+    }
+    
+    .join {
+        background: bisque;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    
+    .login {
+        background: rgb(232, 131, 8);
+        border-radius: 20px;
+        padding: 5px;
+    }
+    
+    .logo {
+        animation: 0.8s infinite movement;
+    }
+    
+    @keyframes movement {
+        0% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(1.1);
+        }
+        40% {
+            transform: scale(1);
+        }
+        60% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .search {
+        position: relative;
+        display: flex;
+        padding: 60vh 10px 60px 60px;
+        justify-content: space-between;
+    }
+    
+    .search-b {
+        width: 80%;
+        padding: 10px;
+        padding-left: 20px;
+        border-radius: 50px;
+        line-height: 24px;
+    }
+    
+    .searchTab {
+        background: red;
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+        transition: background 1s;
+    }
+    
+    .searchTab:hover {
+        background: #fff;
+        color: black;
+    }
+    
+    .first_header .trend {
+        font-size: 100px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .head1 {
+        height: 5px;
+        background: red;
+    }
+    /*container started */
+    
+    .container {
+        background: rgba(0, 0, 0, 0.589);
+        max-width: 600px;
+        padding: 15px;
+    }
+    /*container end */
+    
+    footer {
+        margin-top: 600px;
+        padding-top: 20px;
+        background: rgba(0, 0, 0, 0.589);
+    }
+    
+    .main {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    .copy {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 10px;
+        color: #fff;
+    }
+    
+    .main a span {
+        color: rgba(255, 255, 255, 0.6);
+        padding: 0 50px;
+    }
+    
+    .main a {
+        text-decoration: none;
+    }
+    
+    .copy .copyright {
+        text-align: center;
+        justify-content: center;
+    }

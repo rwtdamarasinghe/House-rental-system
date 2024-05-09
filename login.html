@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Home</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/login.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="left-menu">
+            <div class="logo">
+                <img src="./image/Home.png " width="100px" height="100px" alt="logo">
+            </div>
+            <div class="links">
+                <a href="index.php">
+                    <span>Home</span>
+                </a>
+                <a href="reveiv.html">
+                    <span>Review</span>
+                </a>
+                <a href="indexpay.html">
+                    <span>payment</span>
+                </a>
+                <a href="rental.html">
+                    <span>Rental</span>
+                </a>
+                <a href="contactus.html">
+                    <span>Contact Us</span>
+                </a>
+            </div>
+        </div>
+        <div class="right-menu">
+            <div class="join">
+                <a href="register.html">Join</a>
+            </div>
+            <div class="dash">
+                |
+            </div>
+            <div class="Login">
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="./js/login.js"></script>
+        <h1 class="topic">Login</h1>
+        <img src="./image/Logo.jpg" width="100px" height="100px" class="userImg">
+        <div class="form-box">
+            <form name="loginForm" method="post" action="http://localhost/login.php">
+                <label>User Name</label>
+                <input type="text" name="uName" placeholder="Enter User Name" class="text-login" required>
+                <label>Password</label>
+                <input type="password" name="uPass" placeholder="Enter Password" class="text-login" required>
+                <input type="checkbox" name="remember" class="check">
+                <span class="p1">Remember me</span><br>
+                <center><input type="submit" value="Sign up" class="submit" onclick="validation()"></center>
+            </form>
+            <div class="links">
+                <Center><span> Don't have an account <a href="#">Sign up</a> Here</span><br><br></Center>
+
+                <center><span>Log in With</span></center>
+                <center>
+                    <div class="icon">
+                        <a href="#" alt="logo">
+                            <ion-icon name="logo-facebook"></ion-icon>
+
+                        </a>
+                        <a href="#" alt="logo">
+                            <ion-icon name="logo-twitter"></ion-icon>
+
+                        </a>
+                        <a href="#" alt="logo">
+                            <ion-icon name="logo-instagram"></ion-icon>
+
+                        </a>
+                        <a href="#" alt="logo">
+                            <ion-icon name="logo-google"></ion-icon>
+
+                        </a>
+                        <a href="#" alt="logo">
+                            <ion-icon name="logo-skype"></ion-icon>
+
+                        </a>
+                    </div>
+                </center>
+
+            </div>
+        </div>
+
+    </div>
+    <!--Footer Start-->
+    <footer>
+        <div class="main">
+            <a href="#" class="t&c"><span>TERMS AND CONDITION</span></a>
+            <span class="dash">|</span>
+
+            <a href="#" class="pp"><span>PRIVACY POLICY</span></a>
+            <span class="dash">|</span>
+
+            <a href="#" class="ab"><span>ABOUT US</span></a>
+            <span class="dash">|</span>
+
+            <a href="#" class="fb"><span>FEEDBACK</span></a>
+            <span class="dash">|</span>
+        </div>
+        <div class="copy">
+            <span class="copyright">CopyRight &copy; 2022<br> JI Company Alright Recerved</span>
+        </div>
+
+    </footer>
+
+
+
+
+    <!--Footer End-->
+</body>

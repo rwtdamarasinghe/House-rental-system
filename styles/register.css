@@ -1,0 +1,64 @@
+body {
+    background: url(../image/prp.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px 2000px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-position: center;
+}
+
+.first_header {
+    padding-top: 5opx;
+}
+
+.reg {
+    padding-left: 50px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.head1 {
+    width: 90%;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.container_main {
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+lable,
+p,
+.checkbox {
+    color: #fff;
+}
+
+.container_main .container .text_box {
+    width: 96%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    color: black;
+    border-radius: 3px;
+}
+
+.p1 {
+    color: #fff;
+}
+
+.reg_button {
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.head2 {
+    width: 96%;
+}
+
+footer {
+    margin-top: 30px;
+}
